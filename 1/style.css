@@ -1,0 +1,43 @@
+
+
+body{
+	background-color:#1A4269;
+	color:#000000;
+	font-family:Helvetica, sans-serif ;
+}
+
+header{
+	background-color: #A8C7E6;
+	margin: 30px;
+	padding-left: 30px;
+}
+header h1{
+	font-size: 100px;
+	margin: 0;
+
+}
+header h5{
+	font-size: 20px;
+	position: absolute;
+	right: 50px;
+	margin-top:-100px;
+
+}
+
+main{
+	background-color: #FFFFCC;
+	padding: 10px;
+	margin: 30px;
+	margin-right: 700px;
+}
+
+img.stars{
+		position: absolute;
+	right: 40px;
+	margin-top:-660px;
+	width:700px;
+	height:590px;
+}
+a{
+	color:#FFFFFF;
+}
