@@ -1,0 +1,94 @@
+body{
+
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+ background-image: url("images1/blue2.jpg");
+/* background-repeat:no-repeat;*/
+background-attachment: fixed;
+}
+
+#wrapper{
+  background-color: #CCC;
+  padding:40px;
+  margin:100px;
+  border-radius: 35px;
+  border:groove 10px #000;
+  border-color: #808080;
+ background-color: #FFF;
+}
+
+header{
+  text-align: center;
+  font-size: 40px;
+}
+
+nav{
+  background-color: #FFF;
+  padding:10px 10px 10px 10px;
+  text-align:center;
+  word-spacing: 20px;
+}
+nav a{
+  text-decoration:none;
+  color:#F0F;
+
+}
+
+nav a:hover{
+  color:#000;
+}
+
+article h1{
+border-bottom: solid 2px #000;
+
+}
+
+p span.school{
+  color:#F0F;
+
+}
+article p{
+  line-height: 1.5;
+  padding: 5px;
+}
+
+img.syllabus{
+  width:980px;
+  height:auto px;
+}
+
+img.me{
+  padding-left: 30px;
+  display:block;
+float: right;
+height: 450px;
+width:auto px;
+}
+
+img.stars{
+  text-align:center;
+  height:300px;
+  width:auto px;
+}
+
+img.bodyworld{
+   height:400px;
+  width:auto px;
+}
+img.library{
+   height:400px;
+  width:auto px;
+}
+img.blueroom{
+   height:500px;
+  width:auto px;
+}
+img.face{
+   height:500px;
+  width:auto px;
+}
+div footer{
+  text-align: center;
+}
+/*second image*/
