@@ -1,52 +1,77 @@
 <!DOCTYPE html>
-<html>
-<head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Fish</title>
-	<link rel="stylesheet" type = "text/css" href="styles.css">
+<html lang="en">
+	<head>
+		<title>Welcome to my Virtual Terrarium</title>
+		<meta charset="utf-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<!-- import the webpage's stylesheet -->
+		<link rel="stylesheet" href="styles.css" />
+		<!-- import the webpage's JavaScript file -->
+		<script src="script.js" defer></script>
+	</head>
 
-	<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Arima:wght@100..700&family=Danfo&family=Exo+2:ital,wght@0,100..900;1,100..900&family=Quicksand:wght@300..700&family=Rajdhani&family=Sixtyfour+Convergence&family=Spicy+Rice&display=swap" rel="stylesheet">
-</head>
-<body>
-	<div class = "container">
-	<header>
-		<h1>About Ocean Discovery</h1>
+	<body>
+		<div id="page">
+			<h1>Make Your Own Aquarium</h1>
+			<div id="left-container" class="container">
+				<div class="plant-holder">
+					<img class="plant" alt="plant" id="plant1" src="./images/fish3.png" />
+				</div>
+				<div class="plant-holder">
+					<img class="plant" alt="plant" id="plant2" src="./images/fish4.png" />
+				</div>
+				<div class="plant-holder">
+					<img class="plant" alt="plant" id="plant3" src="./images/fish5.png" />
+				</div>
+				<div class="plant-holder">
+					<img class="plant" alt="plant" id="plant4" src="./images/coral1.png" />
+				</div>
+				<div class="plant-holder">
+					<img class="plant" alt="plant" id="plant5" src="./images/coral2.png" />
+				</div>
+				<div class="plant-holder">
+					<img class="plant" alt="plant" id="plant6" src="./images/coral3.png" />
+				</div>
+				<div class="plant-holder">
+					<img class="plant" alt="plant" id="plant7" src="./images/coral4.png" />
+				</div>
+			</div>
+			<div id="right-container" class="container">
+				<div class="plant-holder">
+					<img class="plant" alt="plant" id="plant8" src="./images/coral5.png" />
+				</div>
+				<div class="plant-holder">
+					<img class="plant" alt="plant" id="plant9" src="./images/rock1.png" />
+				</div>
+				<div class="plant-holder">
+					<img class="plant" alt="plant" id="plant10" src="./images/rock2.png" />
+				</div>
+				<div class="plant-holder">
+					<img class="plant" alt="plant" id="plant11" src="./images/fish1.png" />
+				</div>
+				<div class="plant-holder">
+					<img class="plant" alt="plant" id="plant12" src="./images/fish2.png" />
+				</div>
+				<div class="plant-holder">
+					<img class="plant" alt="plant" id="plant13" src="./images/fish6.png" />
+				</div>
+				<div class="plant-holder">
+					<img class="plant" alt="plant" id="plant14" src="./images/coral6.png" />
+				</div>
+			</div>
 
-	</header>
-	<main>
-		<h2>Main</h2>
-		<br>
-		<h3> Hop on this boat with us!</h3>
-		<div>
-			<div class = "boat"></div>
-			<img class  = "ocean" src = "images/ocean.jpg">
-
-			<div class = "learnmore"></div>
+			<div id="terrarium">
+				<div class = "water"></div>
+				<div class="jar-top"></div>
+				<div class="jar-walls">
+					<div class="jar-glossy-long"></div>
+					<div class="jar-glossy-short"></div>
+				</div>
+				<div class="dirt"></div>
+				<div class="jar-bottom"></div>
+			</div>
 		</div>
-
-	</main>
-	<nav>
-		<h2>nav</h2>
-		<ul>
-			<li><a href="home.html">Home</a></li>
-			<li><a href="index.html">About</a></li>
-			<li><a href="mailto:linshasuna@gmail.com?subject=Website Inquiry">Contact</a></p></li>
-			<li><a href="more.html">More</a></li>
-		</ul>
-<p style="text-align: left;">Fishing is the activity of trying to catch fish. Fish are often caught as wildlife from the natural environment (fresh water or marine), but may also be caught from stocked bodies of water such as ponds, canals, park wetlands and reservoirs. Fishing techniques include hand-gathering, spearing, netting, angling, shooting and trapping, as well as more destructive and often illegal techniques such as electrocution, blasting and poisoning.</p>
-	</nav>
-	<aside>
-		<img class  = "fish" src = "images/fishcc.jpg">
-		<h2>FISH</h2>
-		<p> (pl.: fish or fishes) is an aquatic, anamniotic, gill-bearing vertebrate animal with swimming fins and a hard skull, but lacking limbs with digits. Fish can be grouped into the more basal jawless fish and the more common jawed fish, the latter including all living cartilaginous and bony fish, as well as the extinct placoderms and acanthodians. Most fish are cold-blooded, their body temperature varying with the surrounding water, though some large active swimmers like white shark and tuna can hold a higher core temperature. Many fish can communicate acoustically with each other, such as during courtship displays.</p>
-	</aside>
-	<footer>
-		 <p>&copy; 2024 Ocean Discovery | <a href="#">Privacy Policy</a> | <a href="#">Contact Us</a></p>
-	</footer>
-</div>
-
-</body>
+	</body>
 </html>
+
