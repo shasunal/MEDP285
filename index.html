@@ -1,77 +1,153 @@
 <!DOCTYPE html>
-<html lang="en">
-	<head>
-		<title>Welcome to my Virtual Terrarium</title>
-		<meta charset="utf-8" />
-		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
-		<meta name="viewport" content="width=device-width, initial-scale=1" />
-		<!-- import the webpage's stylesheet -->
-		<link rel="stylesheet" href="styles.css" />
-		<!-- import the webpage's JavaScript file -->
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Sweet Creations</title>
+		<link rel="stylesheet" type = "text/css" href="styles.css">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Arima:wght@100..700&family=Dancing+Script:wght@400..700&family=Danfo&family=Exo+2:ital,wght@0,100..900;1,100..900&family=Lobster&family=Quicksand:wght@300..700&family=Rajdhani&family=Sixtyfour+Convergence&family=Spicy+Rice&display=swap" rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Arima:wght@100..700&family=Dancing+Script:wght@400..700&family=Danfo&family=Exo+2:ital,wght@0,100..900;1,100..900&family=Lobster&family=Quicksand:wght@300..700&family=Rajdhani&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rouge+Script&family=Sixtyfour+Convergence&family=Spicy+Rice&display=swap" rel="stylesheet">
+
 		<script src="script.js" defer></script>
-	</head>
+		<script src="slide.js" defer></script>
+		<script src="sprinkle.js" defer></script>
+</head>
+<body>
+	<div class = "container">
+		<header class="float-header">
+		<h1> Sweet Creations </h1>
+	</header>
 
-	<body>
-		<div id="page">
-			<h1>Make Your Own Aquarium</h1>
-			<div id="left-container" class="container">
-				<div class="plant-holder">
-					<img class="plant" alt="plant" id="plant1" src="./images/fish3.png" />
-				</div>
-				<div class="plant-holder">
-					<img class="plant" alt="plant" id="plant2" src="./images/fish4.png" />
-				</div>
-				<div class="plant-holder">
-					<img class="plant" alt="plant" id="plant3" src="./images/fish5.png" />
-				</div>
-				<div class="plant-holder">
-					<img class="plant" alt="plant" id="plant4" src="./images/coral1.png" />
-				</div>
-				<div class="plant-holder">
-					<img class="plant" alt="plant" id="plant5" src="./images/coral2.png" />
-				</div>
-				<div class="plant-holder">
-					<img class="plant" alt="plant" id="plant6" src="./images/coral3.png" />
-				</div>
-				<div class="plant-holder">
-					<img class="plant" alt="plant" id="plant7" src="./images/coral4.png" />
-				</div>
-			</div>
-			<div id="right-container" class="container">
-				<div class="plant-holder">
-					<img class="plant" alt="plant" id="plant8" src="./images/coral5.png" />
-				</div>
-				<div class="plant-holder">
-					<img class="plant" alt="plant" id="plant9" src="./images/rock1.png" />
-				</div>
-				<div class="plant-holder">
-					<img class="plant" alt="plant" id="plant10" src="./images/rock2.png" />
-				</div>
-				<div class="plant-holder">
-					<img class="plant" alt="plant" id="plant11" src="./images/fish1.png" />
-				</div>
-				<div class="plant-holder">
-					<img class="plant" alt="plant" id="plant12" src="./images/fish2.png" />
-				</div>
-				<div class="plant-holder">
-					<img class="plant" alt="plant" id="plant13" src="./images/fish6.png" />
-				</div>
-				<div class="plant-holder">
-					<img class="plant" alt="plant" id="plant14" src="./images/coral6.png" />
-				</div>
-			</div>
+	<main>
+		<div class="discount">
+  <span class="discount-text">🍰 Get 10% off! 🍰</span>
+  <button class="close-btn" onclick="removeDiscount()">✖</button>
+</div>
+		
+		<video width=100% height=auto controls>
+  <source src="cake.mp4" type="video/mp4">
 
-			<div id="terrarium">
-				<div class = "water"></div>
-				<div class="jar-top"></div>
-				<div class="jar-walls">
-					<div class="jar-glossy-long"></div>
-					<div class="jar-glossy-short"></div>
-				</div>
-				<div class="dirt"></div>
-				<div class="jar-bottom"></div>
-			</div>
-		</div>
-	</body>
+Your browser does not support the video tag.
+</video>
+		<br>
+		<h3 style = "position: absolute; top: 1100px; left:80px; font-size: 80px;">Design <br> Order <br> and Celebrate!</h3>
+		<br>
+		<img class  = "pipe" src = "images/piping.png">
+		<br>
+		<a href="design.html"><button style = "position: absolute; top: 1400px; left: 200px; ; "class="button-74" role="button">Design</button></a>
+		<br>
+		<p style ="text-align: center; font-size:40px; ">Customize your perfect cake or choose from our curated designs.</p>
+
+<div style = "background-color:  #8dc9a7;">
+
+<table>
+  
+  <tr>
+    <td><div style = "width: 100%; height: auto; float: left;"class="slideshow-container">
+  <div class="mySlides1">
+    <img src="images/cake.jpg" style="width:100%">
+  </div>
+
+  <div class="mySlides1">
+    <img src="images/cake2.jpg" style="width:100%">
+  </div>
+
+  <div class="mySlides1">
+    <img src="images/cake3.jpg" style="width:100%">
+  </div>
+
+  <a class="prev" onclick="plusSlides(-1, 0)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1, 0)">&#10095;</a>
+</td>
+    <td style=" padding-right: 50px; padding-left: 50px;">
+    		<h2>Cakes for Every Occasion</h2>
+    	<p style="font-size: 20px; text-align:left;">We’ve got you covered for any holiday, special occasion, or cause for celebration.</p>
+
+    </td>
+  </tr>
+
+</table>
+</div>
+
+<div style = "background-color: #FFF8E7 !important; padding-bottom: 40px; padding-top: 50px;">
+<h2>Our Selection</h2>
+<table >
+  <tr>
+    <td><div class="mySlides2">
+    <img src="images/birthday.jpg" style="width:100%" class="hover-expand">
+  </div></td>
+    <td><div class="mySlides2">
+    <img src="images/wedding3.jpg" style="width:100%" class="hover-expand">
+  </div></td>
+    <td> <div class="mySlides2">
+    <img src="images/gender.jpg" style="width:75%" class="hover-expand">
+  </div></td>
+  </tr>
+  <tr>
+  	<td>
+  		<p>Birthdays</p>
+  	</td>
+  		<td>
+  		<p>Weddings</p>
+  	</td>
+  		<td>
+  		<p>Gender Reveals</p>
+  	</td>
+  </tr>
+
+</table>
+</div>
+
+<br>
+<h2>Reviews from our Customers</h2>
+<br>
+<div class="slideshow-container" style="text-align:center; padding-bottom: 40px;">
+  <div class="mySlides4">
+    <q>I love you the more in that I believe you had liked me for my own sake and for nothing else</q>
+    <p class="author">- John Keats</p>
+  </div>
+
+  <div class="mySlides4">
+    <q>But man is not made for defeat. A man can be destroyed but not defeated.</q>
+    <p class="author">- Ernest Hemingway</p>
+  </div>
+
+  <div class="mySlides4">
+    <q>I have not failed. I've just found 10,000 ways that won't work.</q>
+    <p class="author">- Thomas A. Edison</p>
+  </div>
+
+
+</div>
+
+
+
+	</main>
+	<nav >
+		<ul class="float-header">
+			<li><a href="index.html"><button class="button-74"  role="button">Home</button></a></li>
+			<li><a href="about.html"><button class="button-74" role="button">About</button></a></li>
+			<li><a href="mailto:linshasuna@gmail.com?subject=Website Inquiry"><button class="button-74" role="button">Contact</button></a></p></li>
+			<li><a href="design.html"><button class="button-74" role="button">Design</button></a></li>
+			<li><button class="button-74" onclick="startSprinkleEffect()">Sprinkles</button>
+<div class="sprinkle-container"></div>
+</li>
+		</ul>
+	</nav>
+
+	
+	
+	<footer>
+		<p>© 2024 Sweet Creations. All rights reserved.</p>
+	</footer>
+</div>
+
+
+</body>
 </html>
-
